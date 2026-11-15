@@ -1,7 +1,6 @@
-# VCT Credit Card Company
+# Credit Card Management System
 
-
-A desktop credit card management system built with **Java (Swing)** and **MySQL**.
+**VCT Credit Card Company**: a desktop credit card management system built with **Java (Swing)** and **MySQL**.
 Individuals, companies and merchants can open accounts, make purchases and refunds, repay
 debt and browse their transaction history. Management reports rank the best and worst
 customers and pick the merchant of the month.
@@ -92,7 +91,7 @@ Requirements: JDK 17+, Maven, and a running MySQL 8 server.
 
 ```bash
 mvn package
-java -jar target/credit-card-company.jar
+java -jar target/credit-card-management-system.jar
 ```
 
 On first start the app creates the `credit_card_company` database and fills it with
