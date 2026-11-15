@@ -1,5 +1,7 @@
 # Credit Card Management System
 
+[![build](https://github.com/Giannischiras/credit-card-management-system/actions/workflows/build.yml/badge.svg)](https://github.com/Giannischiras/credit-card-management-system/actions/workflows/build.yml)
+
 **VCT Credit Card Company**: a desktop credit card management system built with **Java (Swing)** and **MySQL**.
 Individuals, companies and merchants can open accounts, make purchases and refunds, repay
 debt and browse their transaction history. Management reports rank the best and worst
@@ -27,6 +29,7 @@ Business rules enforced by the service layer:
 - **Java 17**, Swing with the [FlatLaf](https://www.formdev.com/flatlaf/) look and feel
 - **MySQL 8** through plain **JDBC** (`PreparedStatement` everywhere, no string-built SQL)
 - **Maven** build, **JUnit 5** tests on an in-memory **H2** database in MySQL mode
+- **GitHub Actions** CI builds the project and runs the tests on every push
 
 
 ## Architecture
